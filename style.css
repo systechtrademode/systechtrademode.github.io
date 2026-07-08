@@ -6,8 +6,11 @@
 }
 
 body{
-    background:#0b0b0b;
+    background:
+    radial-gradient(circle at top,#3d2d00 0%,#141414 35%,#090909 70%,#000000 100%);
     color:white;
+    overflow-x:hidden;
+
 }
 
 header{
