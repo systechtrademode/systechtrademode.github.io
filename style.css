@@ -197,6 +197,57 @@ color:#f5c542;
 margin-bottom:10px;
 }
 
+footer{
+background:#080808;
+padding:60px 20px;
+text-align:center;
+border-top:1px solid #222;
+}
+
+footer h2{
+color:#f5c542;
+margin-bottom:15px;
+}
+
+footer p{
+color:#ccc;
+margin:8px 0;
+}
+
+.contact{
+margin:25px 0;
+}
+
+.copyright{
+margin-top:25px;
+font-size:14px;
+color:#777;
+}
+
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+width:60px;
+height:60px;
+background:#25D366;
+color:white;
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+font-size:30px;
+text-decoration:none;
+box-shadow:0 0 20px rgba(0,0,0,.4);
+transition:.3s;
+}
+
+.whatsapp:hover{
+transform:scale(1.1);
+}
+
 .stat-box p{
 color:#ccc;
 }
+
+
