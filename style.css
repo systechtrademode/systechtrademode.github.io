@@ -28,6 +28,11 @@ nav{
     color:#f5c542;
     font-size:28px;
     font-weight:700;
+.logo img{
+    height:70px;
+    width:auto;
+    display:block;
+
 }
 
 nav ul{
