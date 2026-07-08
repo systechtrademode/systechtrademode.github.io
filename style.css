@@ -83,6 +83,10 @@ nav ul li a:hover{
 .hero h1{
     font-size:60px;
     margin-bottom:20px;
+    background:linear-gradient(90deg,#ffffff,#f5c542,#ffffff);
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+    animation:glow 3s infinite alternate;
 }
 
 .hero p{
@@ -276,4 +280,15 @@ transform:scale(1.1);
 color:#ccc;
 }
 
+@keyframes glow{
+
+0%{
+filter:drop-shadow(0 0 5px rgba(245,197,66,.2));
+}
+
+100%{
+filter:drop-shadow(0 0 25px rgba(245,197,66,.7));
+}
+
+}
 
