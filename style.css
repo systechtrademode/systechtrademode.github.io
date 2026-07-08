@@ -59,7 +59,25 @@ nav ul li a:hover{
 
 .hero{
     text-align:center;
-    padding:120px 20px;
+    padding:140px 20px;
+    position:relative;
+    overflow:hidden;
+
+}
+
+.hero::before{
+    content:"";
+    position:absolute;
+    width:500px;
+    height:500px;
+    background:#f5c542;
+    border-radius:50%;
+    filter:blur(180px);
+    opacity:.18;
+    top:-180px;
+    left:50%;
+    transform:translateX(-50%);
+    z-index:-1;
 }
 
 .hero h1{
